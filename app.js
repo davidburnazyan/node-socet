@@ -57,5 +57,7 @@ app.use((error, req, res, next) => {
         }
     })
 })
-module.exports = app;
+mongoose.connection.once('open', () => { console.log('MongoDB Connected'); });
+mongoose.connection.on('error', (err) => { console.log('MongoDB connection error: ', err); });
 
+module.exports = app;
