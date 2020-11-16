@@ -16,10 +16,7 @@ const productRoutes = require('./api/routes/product');
 // )
 
 mongoose.connect(
-    `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
-    {
-        useNewUrlParser : true
-    }
+    `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`
 )
 
 
