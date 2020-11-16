@@ -19,10 +19,10 @@ mongoose.connect(
     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
     {
         useNewUrlParser : true,
+        useCreateIndex: true,
+        useUnifiedTopology: true
     }
 )
-
-// useUnifiedTopology: true
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
