@@ -24,7 +24,7 @@
     "nodemon": "^1.19.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",

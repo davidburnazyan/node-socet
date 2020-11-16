@@ -10,17 +10,9 @@ const imageRoutes = require('./api/routes/image');
 const messageRoutes = require('./api/routes/message');
 const productRoutes = require('./api/routes/product');
 
-// mongoose.connect(
-//     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@product-p4ybv.mongodb.net/test?retryWrites=true&w=majority`,
-//     { useNewUrlParser : true }
-// )
-
 mongoose.connect(
     `mongodb+srv://projects:information@idontknow.v9b7v.mongodb.net/IDontKnow?retryWrites=true&w=majority`,
 
-    // `mongodb+srv://david:${process.env.MONGO_ATLAS_PW}@cluster0.c9bjk.mongodb.net/Cluster0?retryWrites=true&w=majority`,
-    // `mongodb+srv://hahaha:hahaha@cluster0.32fhj.mongodb.net/Cluster0?retryWrites=true&w=majority`,
-    // `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
