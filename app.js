@@ -10,11 +10,6 @@ const imageRoutes = require('./api/routes/image');
 const messageRoutes = require('./api/routes/message');
 const productRoutes = require('./api/routes/product');
 
-// mongoose.connect(
-//     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@product-p4ybv.mongodb.net/test?retryWrites=true&w=majority`,
-//     { useNewUrlParser : true }
-// )
-
 mongoose.connect(
     `mongodb+srv://projects:information@idontknow.v9b7v.mongodb.net/IDontKnow?retryWrites=true&w=majority`,
 
