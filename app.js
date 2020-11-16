@@ -16,7 +16,8 @@ const productRoutes = require('./api/routes/product');
 // )
 
 mongoose.connect(
-    `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
+    `mongodb://David:${process.env.MONGO_ATLAS_PW}@graphql-shard-00-00.p4ybv.mongodb.net:27017,graphql-shard-00-01.p4ybv.mongodb.net:27017,graphql-shard-00-02.p4ybv.mongodb.net:27017/GraphQLDB?ssl=true&replicaSet=atlas-bq89vg-shard-0&authSource=admin&retryWrites=true&w=majority`,
+    // `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
     {
         useNewUrlParser : true,
         useCreateIndex: true,
