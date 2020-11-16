@@ -18,13 +18,13 @@ const productRoutes = require('./api/routes/product');
 mongoose.connect(
     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
     {
-        useNewUrlParser : true
+        useNewUrlParser : true,
+        useUnifiedTopology: true
     }
 )
+const conn = mongoose.connection;
 
-// useUnifiedTopology: true
-// mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
-// const conn = mongoose.connection;
+
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
@@ -60,6 +60,7 @@ app.use((error, req, res, next) => {
         }
     })
 })
-
+mongoose.connection.once('open', () => { console.log('MongoDB Connected'); });
+mongoose.connection.on('error', (err) => { console.log('MongoDB connection error: ', err); });
 module.exports = app;
 
