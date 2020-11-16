@@ -14,15 +14,17 @@ const productRoutes = require('./api/routes/product');
 //     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@product-p4ybv.mongodb.net/test?retryWrites=true&w=majority`,
 //     { useNewUrlParser : true }
 // )
-mongoose.Promise = global.Promise;
 
 mongoose.connect(
     `mongodb+srv://David:${process.env.MONGO_ATLAS_PW}@graphql.p4ybv.mongodb.net/GraphQLDB?retryWrites=true&w=majority`,
     {
-        useNewUrlParser : true,
-        useUnifiedTopology: true
+        useNewUrlParser : true
     }
 )
+
+// useUnifiedTopology: true
+// mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true});
+// const conn = mongoose.connection;
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
