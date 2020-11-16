@@ -23,7 +23,7 @@ module.exports = {
                 typeof token === 'string' &&  token !== ''
             ) {
                 request.post({
-                    "url": "http://localhost:4000/api/message",
+                    "url": `${process.env.HOSTING}/api/message`,
                     "headers": {
                         "Content-Type": "Application/json",
                         "Authorization": token

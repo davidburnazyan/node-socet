@@ -19,13 +19,9 @@ mongoose.connect(
     }
 )
 
-
-
 // projects
 // information
 // Clusters
-
-
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
