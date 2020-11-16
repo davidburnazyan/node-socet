@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e10bc496-4ab1-4e39-91b3-f48f0a761578" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TH0i9yBo6kvgDoL8A4DOmsMDK1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.22.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.44" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Js\Code\dog_server\api\routes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e10bc496-4ab1-4e39-91b3-f48f0a761578" name="Default Changelist" comment="" />
+      <created>1573101837508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573101837508</updated>
+      <workItem from="1573101843077" duration="24324000" />
+      <workItem from="1573142098119" duration="598000" />
+      <workItem from="1573145413950" duration="111000" />
+      <workItem from="1573145578973" duration="1026000" />
+      <workItem from="1573189522489" duration="3222000" />
+      <workItem from="1575294673875" duration="3143000" />
+      <workItem from="1575349217464" duration="606000" />
+      <workItem from="1575355459935" duration="15000" />
+      <workItem from="1575370318811" duration="1362000" />
+      <workItem from="1575457383638" duration="3333000" />
+      <workItem from="1575463237114" duration="1771000" />
+      <workItem from="1575481796955" duration="9109000" />
+      <workItem from="1575519414726" duration="6569000" />
+      <workItem from="1575531605603" duration="1777000" />
+      <workItem from="1575623149326" duration="29000" />
+      <workItem from="1576045333801" duration="4646000" />
+      <workItem from="1576089888302" duration="1927000" />
+      <workItem from="1576124132406" duration="236000" />
+      <workItem from="1576129105086" duration="11334000" />
+      <workItem from="1576582217764" duration="14000" />
+      <workItem from="1578169028277" duration="581000" />
+      <workItem from="1605543610251" duration="1303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1575492213255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575492213255" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576143103174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576143103174" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1575492035985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1575492035985" />
+    <state x="379" y="101" width="607" height="526" key="find.popup" timestamp="1575524898093">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="101" width="607" height="526" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1575524898093" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576091768472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576091768472" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576140385413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576140385413" />
+  </component>
+</project>
