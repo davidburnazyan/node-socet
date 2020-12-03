@@ -5,6 +5,7 @@ const env = require('dotenv').config()
 const bodyParser = require('body-parser');
 
 
+const saveClientData = require('./api/routes/client');
 const userRoutes = require('./api/routes/user');
 const imageRoutes = require('./api/routes/image');
 const messageRoutes = require('./api/routes/message');
@@ -39,6 +40,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use('/uploads', imageRoutes)
+app.use('/api/client', saveClientData)
 app.use('/api/user', userRoutes)
 app.use('/api/message', messageRoutes)
 app.use('/api/product', productRoutes)
